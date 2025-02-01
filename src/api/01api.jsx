@@ -40,4 +40,13 @@ export const addBook = async (book) => {
   }
 };
 
+// export const getUserDetails = async () => {
+//   try{
+//     const userDetails = await axiosInstance.get('/userDetails');
+//     return response.data;
+//   }catch(error){
+//     console.log("user details not found");
+//     throw error
+//   }
+// }
 export default axiosInstance;

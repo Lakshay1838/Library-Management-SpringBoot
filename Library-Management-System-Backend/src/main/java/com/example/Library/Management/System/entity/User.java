@@ -29,7 +29,6 @@ public class User {
     @DBRef
     private List<Book> IssuedBooks = new ArrayList<>();
 
-
     public List<Book> getIssuedBooks() {
         return IssuedBooks;
     }

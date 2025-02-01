@@ -32,4 +32,9 @@ public class UserController {
     public ResponseEntity<?> getUsers(){
         return new ResponseEntity<>(userService1.getAll(),HttpStatus.OK);
     }
+
+    @GetMapping
+//    public User getUserDetails(){
+//
+//    }
 }
